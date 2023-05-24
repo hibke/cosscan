@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">cosscan</string>
+    <string name="base_currency">base_currency</string>
+    <string name="nzd">nzd</string>
+    <string name="usd">USD:</string>
+</resources>

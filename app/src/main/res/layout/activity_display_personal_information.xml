@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayPersonalInformation"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewa2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="List of favorite ingredients:"
+            android:textColor="#C6A347"
+            android:layout_marginTop="20dp"
+
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="145dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+            android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+        <TextView
+            android:id="@+id/textViewa3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="List of displeasing ingredients for you :"
+            android:textColor="#C6A347"
+            android:textSize="20sp"
+
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="145dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView1"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="222dp" />
+    </LinearLayout>
+
+</ScrollView>

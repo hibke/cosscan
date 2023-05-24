@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".PersonalInformationActivity">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+
+      android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Select your favourite ingredients:"
+        android:fontFamily="cursive"
+
+        android:textColor="#C6A347"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         />
+
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Allantoin" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Aloe Vera" />
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Alpha Hydroxy Acid" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Arbutin" />
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Argan Oil" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Azelaic Acid" />
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Benzoyl Peroxide" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Benzyl Alcohol" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Biotin" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Caffeine" />
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Camellia Extract" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Castor Oil" />
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Ceramides" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Chia Seed Oil" />
+    <CheckBox
+        android:id="@+id/checkBox15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Citric Acid" />
+
+    <CheckBox
+        android:id="@+id/checkBox16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Cocoa Butter" />
+
+    <CheckBox
+        android:id="@+id/checkBox17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Coconut Oil" />
+
+    <CheckBox
+        android:id="@+id/checkBox18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Collagen" />
+    <CheckBox
+        android:id="@+id/checkBox19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Dimethicone" />
+
+    <CheckBox
+        android:id="@+id/checkBox20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Emu Oil" />
+    <CheckBox
+        android:id="@+id/checkBox21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Ferulic Acid" />
+
+    <CheckBox
+        android:id="@+id/checkBox22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Glycerin" />
+    <CheckBox
+        android:id="@+id/checkBox23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Glycolic Acid" />
+
+    <CheckBox
+        android:id="@+id/checkBox24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Gold" />
+
+    <CheckBox
+        android:id="@+id/checkBox25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Grapeseed Oil" />
+
+    <CheckBox
+        android:id="@+id/checkBox26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Green Tea" />
+    <CheckBox
+        android:id="@+id/checkBox27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Honey" />
+
+    <CheckBox
+        android:id="@+id/checkBox28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Hyaluronic Acid" />
+    <CheckBox
+        android:id="@+id/checkBox29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Hydrogen Peroxide" />
+
+    <CheckBox
+        android:id="@+id/checkBox30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Isoparaffin" />
+    <CheckBox
+        android:id="@+id/checkBox31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Jojoba" />
+
+    <CheckBox
+        android:id="@+id/checkBox32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Kojic Acid" />
+
+    <CheckBox
+        android:id="@+id/checkBox33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Lactic Acid" />
+
+    <CheckBox
+        android:id="@+id/checkBox34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Lavender Oil" />
+    <CheckBox
+        android:id="@+id/checkBox35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Lysine" />
+
+    <CheckBox
+        android:id="@+id/checkBox36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Magnesium" />
+    <CheckBox
+        android:id="@+id/checkBox37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Mandelic Acid" />
+
+    <CheckBox
+        android:id="@+id/checkBox38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Mineral Oil" />
+    <CheckBox
+        android:id="@+id/checkBox39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Niacinamide" />
+
+    <CheckBox
+        android:id="@+id/checkBox40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Olive Oil" />
+
+    <CheckBox
+        android:id="@+id/checkBox41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Panthenol" />
+
+    <CheckBox
+        android:id="@+id/checkBox42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Parabens" />
+    <CheckBox
+        android:id="@+id/checkBox43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="PHA" />
+
+    <CheckBox
+        android:id="@+id/checkBox44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Propolis" />
+    <CheckBox
+        android:id="@+id/checkBox45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Retinol" />
+
+    <CheckBox
+        android:id="@+id/checkBox46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Rosemary" />
+    <CheckBox
+        android:id="@+id/checkBox47"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Salicylic Acid" />
+
+    <CheckBox
+        android:id="@+id/checkBox48"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Sea Salt" />
+
+    <CheckBox
+        android:id="@+id/checkBox49"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Seaweed" />
+
+    <CheckBox
+        android:id="@+id/checkBox50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Shea Butter" />
+    <CheckBox
+        android:id="@+id/checkBox51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Sodium Hydroxide" />
+
+    <CheckBox
+        android:id="@+id/checkBox52"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Sodium Lauryl Sulfate" />
+    <CheckBox
+        android:id="@+id/checkBox53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Soybean Oil" />
+
+    <CheckBox
+        android:id="@+id/checkBox54"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Sulfates" />
+    <CheckBox
+        android:id="@+id/checkBox55"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Sunflower Oil" />
+
+    <CheckBox
+        android:id="@+id/checkBox56"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Talc" />
+
+    <CheckBox
+        android:id="@+id/checkBox57"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Tretinoin" />
+
+    <CheckBox
+        android:id="@+id/checkBox58"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Turmeric" />
+    <CheckBox
+        android:id="@+id/checkBox59"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Undecylenic Acid" />
+
+    <CheckBox
+        android:id="@+id/checkBox60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Vitamin A" />
+    <CheckBox
+        android:id="@+id/checkBox61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Vitamin C" />
+
+    <CheckBox
+        android:id="@+id/checkBox62"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Vitamin D" />
+    <CheckBox
+        android:id="@+id/checkBox63"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Vitamin E" />
+
+    <CheckBox
+        android:id="@+id/checkBox64"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:buttonTint="@color/ActionBarColor"
+        android:text="Zinc" />
+
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+          <Button
+              android:id="@+id/button4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:layout_marginStart="20dp"
+              android:layout_marginTop="12dp"
+              android:layout_marginEnd="20dp"
+              android:text="Submit" />
+
+          <Button
+              android:id="@+id/button5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:layout_marginStart="20dp"
+              android:layout_marginTop="12dp"
+              android:layout_marginEnd="20dp"
+              android:text="Display" />
+
+
+      </LinearLayout>
+
+
+      <TextView
+          android:id="@+id/textViewa2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:text="Select the ingredients you want to avoid:"
+          android:textSize="20sp"
+          android:fontFamily="cursive"
+          android:gravity="center"
+          android:textColor="#C6A347"
+          android:textStyle="bold"/>
+
+
+      <CheckBox
+          android:id="@+id/checkBoxa1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Allantoin" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Aloe Vera" />
+      <CheckBox
+          android:id="@+id/checkBoxa3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Alpha Hydroxy Acid" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa4"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Arbutin" />
+      <CheckBox
+          android:id="@+id/checkBoxa5"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Argan Oil" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa6"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Azelaic Acid" />
+      <CheckBox
+          android:id="@+id/checkBoxa7"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_marginStart="20dp"
+          android:text="Benzoyl Peroxide" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa8"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Benzyl Alcohol" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa9"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Biotin" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa10"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Caffeine" />
+      <CheckBox
+          android:id="@+id/checkBoxa11"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Camellia Extract" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa12"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Castor Oil" />
+      <CheckBox
+          android:id="@+id/checkBoxa13"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Ceramides" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa14"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Chia Seed Oil" />
+      <CheckBox
+          android:id="@+id/checkBoxa15"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Citric Acid" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa16"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Cocoa Butter" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa17"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Coconut Oil" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa18"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Collagen" />
+      <CheckBox
+          android:id="@+id/checkBoxa19"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Dimethicone" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa20"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Emu Oil" />
+      <CheckBox
+          android:id="@+id/checkBoxa21"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Ferulic Acid" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa22"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_marginStart="20dp"
+          android:text="Glycerin" />
+      <CheckBox
+          android:id="@+id/checkBoxa23"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Glycolic Acid" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa24"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_marginStart="20dp"
+          android:text="Gold" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa25"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_marginStart="20dp"
+          android:text="Grapeseed Oil" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa26"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_marginStart="20dp"
+          android:text="Green Tea" />
+      <CheckBox
+          android:id="@+id/checkBoxa27"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_marginStart="20dp"
+          android:text="Honey" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa28"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_marginStart="20dp"
+          android:text="Hyaluronic Acid" />
+      <CheckBox
+          android:id="@+id/checkBoxa29"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_marginStart="20dp"
+          android:text="Hydrogen Peroxide" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa30"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Isoparaffin" />
+      <CheckBox
+          android:id="@+id/checkBoxa31"
+          android:layout_width="match_parent"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Jojoba" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa32"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:buttonTint="@color/AvoidColor"
+          android:text="Kojic Acid" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa33"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_marginStart="20dp"
+          android:text="Lactic Acid" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa34"
+          android:layout_width="match_parent"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Lavender Oil" />
+      <CheckBox
+          android:id="@+id/checkBoxa35"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_marginStart="20dp"
+          android:text="Lysine" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa36"
+          android:layout_width="match_parent"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Magnesium" />
+      <CheckBox
+          android:id="@+id/checkBoxa37"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_marginStart="20dp"
+          android:text="Mandelic Acid" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa38"
+          android:layout_width="match_parent"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Mineral Oil" />
+      <CheckBox
+          android:id="@+id/checkBoxa39"
+          android:layout_width="match_parent"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Niacinamide" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa40"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Olive Oil" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa41"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Panthenol" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa42"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Parabens" />
+      <CheckBox
+          android:id="@+id/checkBoxa43"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="PHA" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa44"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Propolis" />
+      <CheckBox
+          android:id="@+id/checkBoxa45"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Retinol" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa46"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Rosemary" />
+      <CheckBox
+          android:id="@+id/checkBoxa47"
+          android:layout_width="match_parent"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Salicylic Acid" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa48"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Sea Salt" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa49"
+          android:layout_width="match_parent"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Seaweed" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa50"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Shea Butter" />
+      <CheckBox
+          android:id="@+id/checkBoxa51"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Sodium Hydroxide" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa52"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Sodium Lauryl Sulfate" />
+      <CheckBox
+          android:id="@+id/checkBoxa53"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Soybean Oil" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa54"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Sulfates" />
+      <CheckBox
+          android:id="@+id/checkBoxa55"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Sunflower Oil" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa56"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Talc" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa57"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Tretinoin" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa58"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Turmeric" />
+      <CheckBox
+          android:id="@+id/checkBoxa59"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Undecylenic Acid" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa60"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Vitamin A" />
+      <CheckBox
+          android:id="@+id/checkBoxa61"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Vitamin C" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa62"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Vitamin D" />
+      <CheckBox
+          android:id="@+id/checkBoxa63"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Vitamin E" />
+
+      <CheckBox
+          android:id="@+id/checkBoxa64"
+          android:buttonTint="@color/AvoidColor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="Zinc" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:shadowColor="@color/AvoidColor"
+            android:backgroundTint="@color/AvoidColor"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:text="Submit" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:text="Display" />
+
+
+    </LinearLayout>
+  </LinearLayout>
+
+</ScrollView>
